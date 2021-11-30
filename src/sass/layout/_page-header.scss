@@ -1,0 +1,140 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 77px;
+  padding-top: 23px;
+  padding-bottom: 24px;
+  padding-left: 31px;
+  padding-right: 29px;
+  background-color: $white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.burger {
+  display: block;
+  width: 27px;
+  height: 18px;
+  border: none;
+  background-color: $white;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+}
+
+.burger span,
+.burger span::before,
+.burger span::after {
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 3px;
+  background-color: $black;
+  content: '';
+}
+
+.burger span::before {
+  top: -8px;
+}
+
+.burger span::after {
+  bottom: -8px;
+}
+
+.burger-line span {
+  transition: background 0s 0.3s;
+}
+
+.burger span::before,
+.burger span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.burger-line span::before {
+  transition-property: top, transtorm;
+}
+
+.burger-line span::after {
+  transition-property: bottom, transtorm;
+}
+
+.burger-line.is-active span {
+  background: none;
+}
+
+.burger-line.is-active span::before {
+  top: 0;
+  transform: rotate(-45deg);
+  transition-delay: 0s, 0.3s;
+}
+
+.burger-line.is-active span::after {
+  bottom: 0;
+  transform: rotate(45deg);
+  transition-delay: 0s, 0.3s;
+}
+
+.header-logo {
+  display: block;
+  width: 135px;
+  height: 30px;
+  background-image: url('/images/logo.svg');
+  margin-left: 20px;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 500px;
+  @include font(500, 18px, 23px, center);
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+
+.header-search {
+  display: block;
+  width: 27px;
+  height: 18px;
+  border: none;
+  background-color: $white;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    color: $red;
+    outline: none;
+  }
+}
+
+// burger-menu
+.burger-menu {
+  width: 360px;
+  margin-left: -360px;
+  background-color: $white;
+  position: fixed;
+  top: 78px;
+  left: 0;
+  bottom: 0;
+  transition: all ease 1s;
+  padding: 31px;
+}
+
+.burger-menu.menu-active {
+  margin-left: 0px;
+}

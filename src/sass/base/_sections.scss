@@ -1,0 +1,12 @@
+.section {
+  padding-top: 30px;
+
+  @media screen and (min-width: 1344px) {
+    padding-top: 50px;
+  }
+}
+
+.section-title {
+  @include font(500, 40px, 54px, left);
+  text-transform: uppercase;
+}

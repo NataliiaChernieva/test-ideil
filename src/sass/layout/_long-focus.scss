@@ -1,0 +1,15 @@
+.slide-image {
+  width: 1272px;
+  height: 399px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.category {
+  width: 159px;
+  height: 13px;
+  background-color: $white;
+  @include font(700, 14px, 14px, center);
+}

@@ -1,0 +1,12 @@
+.first-section {
+  padding-top: 80px;
+}
+
+.range-card {
+  width: 408px;
+  height: 515px;
+}
+
+.range-category {
+  @include font(700, 14px, 14px, center);
+}

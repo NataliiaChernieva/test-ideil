@@ -1,9 +1,3 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
-
-// Стили для файла с примером HTML-фрагмента
 @import './utils/mixins';
 @import './utils/variables';
 
@@ -12,6 +6,13 @@
 @import './base/sections';
 
 @import './layout/page-header';
+@import './layout/first-section';
+@import './layout/second-section';
+@import './layout/big_water';
+@import './layout/fourth-section';
 @import './layout/range-section';
+@import './layout/ukraine';
+@import './layout/popular-now';
 @import './layout/beauty-country';
 @import './layout/long-focus';
+@import './layout/other-news';

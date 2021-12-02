@@ -3,9 +3,9 @@ $('.slider-for').slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: '.first-container'
+  asNavFor: '.first-container-js'
 });
-$('.first-container').slick({
+$('.first-container-js').slick({
   slidesToShow: 4,
   asNavFor: '.slider-for',
   centerMode: true,

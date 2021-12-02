@@ -5,3 +5,5 @@ import './js/search';
 import './js/range';
 import './js/slide';
 
+import './js/api'
+

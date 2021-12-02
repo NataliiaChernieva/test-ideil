@@ -411,4 +411,18 @@ html {
   line-height: 14px;
   text-align: center;
 }
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+}
+
+.date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,8 @@
+.category {
+  width: 159px;
+  height: 24px;
+  background-color: $white;
+  padding: 5px 10px;
+  background-color: #fff;
+  @include font(700, 14px, 14px, center);
+}

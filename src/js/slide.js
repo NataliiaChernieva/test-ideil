@@ -1,4 +1,19 @@
-$('.slide-container').slick({
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.first-container'
+});
+$('.first-container').slick({
+  slidesToShow: 4,
+  asNavFor: '.slider-for',
+  centerMode: true,
+  focusOnSelect: true
+});
+
+
+$('.focus-slide-container').slick({
   autoplay: true,
   autoplaySpeed: 2000,
 })
@@ -16,16 +31,3 @@ $('.popular-now').slick({
 });
 
 
-$('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.first-container'
-});
-$('.first-container').slick({
-  slidesToShow: 4,
-  asNavFor: '.slider-for',
-  centerMode: true,
-  focusOnSelect: true
-});

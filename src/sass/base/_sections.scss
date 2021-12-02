@@ -6,7 +6,14 @@
   }
 }
 
+.first_section {
+  padding-top: 120px;
+}
+.section-background {
+  background-color: $grey;
+}
+
 .section-title {
-  @include font(500, 40px, 54px, left);
+  @include font(500, 30px, 34px, left);
   text-transform: uppercase;
 }

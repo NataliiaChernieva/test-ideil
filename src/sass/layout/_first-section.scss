@@ -1,0 +1,27 @@
+.first-container-item {
+  width: 100%;
+  height: 466px;
+  background-color: palevioletred;
+  padding: 20px 15px;
+}
+
+.slide-title {
+  width: 608px;
+  @include font(700, 22px, 24px, left);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.slide-text {
+  width: 532px;
+  @include font(400, 16px, 18px, left);
+}
+
+.first-container-mini-item {
+  width: 302px;
+  height: 60px;
+}
+
+.smini-slide-title {
+  @include font(700, 14px, 16px, center);
+}

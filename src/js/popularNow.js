@@ -9,5 +9,5 @@ const renderPopularNowMarkup = data => {
 }
 
 
-Api.getPopularNowData
+Api.getPopularNowData()
     .then(data => renderPopularNowMarkup(data))

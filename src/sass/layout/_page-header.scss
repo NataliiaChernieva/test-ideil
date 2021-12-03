@@ -247,6 +247,12 @@
     width: 20px;
     height: 20px;
   }
+
+  &:focus,
+  &:hover {
+    color: $red;
+    transform: scale(1.1, 1.1);
+  }
 }
 
 .closeInInput {
@@ -257,5 +263,11 @@
   @media screen and (min-width: 1440px) {
     width: 20px;
     height: 20px;
+  }
+
+  &:focus,
+  &:hover {
+    color: $red;
+    transform: scale(1.1, 1.1);
   }
 }

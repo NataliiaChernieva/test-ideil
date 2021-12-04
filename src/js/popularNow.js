@@ -8,6 +8,4 @@ const renderPopularNowMarkup = data => {
     popularNow.insertAdjacentHTML('afterbegin', markup)
 }
 
-
-Api.getPopularNowData()
-    .then(data => renderPopularNowMarkup(data))
+fetch('http://localhost:3000/popular-now').then(res => res.json()).then(renderPopularNowMarkup);

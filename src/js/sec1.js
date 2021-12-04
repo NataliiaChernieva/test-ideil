@@ -8,6 +8,7 @@ const renderFirstSectionMarkup = data => {
     firstContainer.insertAdjacentHTML('afterbegin', markup)
 }
 
-Api.getFirstSectionData()
-    .then(data => renderFirstSectionMarkup(data))
+// Api.getFirstSectionData()
+//     .then(data => renderFirstSectionMarkup(data))
     
+// fetch('http://localhost:3000/sec1').then(res=>res.json()).then(renderFirstSectionMarkup)

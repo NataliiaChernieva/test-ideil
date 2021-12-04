@@ -1,0 +1,12 @@
+.second-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 24px;
+}
+
+.second-section-item {
+  height: 399px;
+}
+.second-section-image {
+  display: block;
+}

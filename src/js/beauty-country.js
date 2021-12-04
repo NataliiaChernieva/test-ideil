@@ -9,5 +9,6 @@ const renderBeautyCountryMarkup = data => {
 }
 
 
-Api.getBeautyCountryData()
-    .then(data => renderBeautyCountryMarkup(data))
+// Api.getBeautyCountryData()
+//     .then(data => renderBeautyCountryMarkup(data))
+fetch('http://localhost:3000/beauty-country').then(res => res.json()).then(renderBeautyCountryMarkup);

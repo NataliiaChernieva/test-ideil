@@ -1,5 +1,4 @@
-import ukraineTemplate from '../tamplates/beauty-card.hbs';
-import * as Api from '../js/api';
+import ukraineTemplate from '../tamplates/ukraine.hbs';
 
 const ukraine = document.querySelector('.ukraine-js')
 
@@ -9,5 +8,4 @@ const renderUkraineMarkup = data => {
 }
 
 
-Api.getUkraineData()
-    .then(data => renderUkraineMarkup(data))
+fetch('http://localhost:3000/ukraine').then(res => res.json()).then(renderUkraineMarkup);

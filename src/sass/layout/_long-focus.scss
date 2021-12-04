@@ -1,9 +1,3 @@
-.focus-slide {
-  height: 399px;
-  border: 2px solid $grey;
-  padding: 18px 16px;
-}
-
 .slide-image {
   width: 1272px;
   height: 399px;
@@ -15,10 +9,12 @@
 
 .focus-title {
   @include font(700, 22px, 24px, center);
+  color: $white;
   padding-top: 174px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
-.focus-text{
+.focus-text {
   @include font(400, 16px, 18px, center);
+  color: $white;
 }

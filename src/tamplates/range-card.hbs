@@ -1,7 +1,9 @@
 {{#each this}}
-<div class="range-card">
-    <p class="category">{{category}}</p>
-    {{image}} && <img class="range-img"src="{{image}}" alt="{{title}}">
-    <p class="range-title">{{title}}</p>
+<div class="range-card" style="background-image: url('{{image}}');">
+    <p class="range-category">{{category}}</p>
+    <p class="oneHandred">{{onehandred}}</p>
+    <img class="range-img" src="{{image1}}" alt="">
+    <h2 class="range-title">{{title}}</h2>
+    <h3 class="range-title">{{secondTitle}}</h3>
 </div>
 {{/each}}

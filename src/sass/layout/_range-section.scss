@@ -1,12 +1,33 @@
-.first-section {
-  padding-top: 80px;
-}
-
 .range-card {
   width: 408px;
   height: 515px;
+  border: 1px solid blue;
+  color: $white;
 }
 
 .range-category {
+  position: relative;
+  top: 18px;
+  left: 120px;
+  width: 159px;
+  height: 24px;
   @include font(700, 14px, 14px, center);
+}
+
+.oneHandred {
+  @include font(700, 100px, 125px, center);
+  margin-top: 174px;
+  margin-bottom: 40px;
+}
+
+.range-title {
+  @include font(700, 24px, 28px, center);
+  width: 266px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.range-img {
+  margin-left: auto;
+  margin-right: auto;
 }

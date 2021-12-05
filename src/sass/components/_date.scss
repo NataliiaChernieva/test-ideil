@@ -1,3 +1,7 @@
 .date {
+  position: relative;
+  bottom: 110px;
+  left: 0px;
   @include font(500, 14px, 14px, left);
+  color: $dark-grey;
 }

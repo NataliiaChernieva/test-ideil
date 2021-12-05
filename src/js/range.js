@@ -1,10 +1,10 @@
 import rangeCardTemplate from '../tamplates/range-card.hbs'
 
-const rangeSlide = document.querySelector('.range-slide')
+const rangeSlider = document.querySelector('.range-slider-js')
 
-const renderMarkup = result => {
+const renderRangeMarkup = result => {
     const markup = rangeCardTemplate(result);
-    rangeSlide.insertAdjacentHTML('afterbegin', markup)
+    rangeSlider.insertAdjacentHTML('afterbegin', markup)
 }
 
-
+fetch('http://localhost:3000/range').then(res => res.json()).then(renderRangeMarkup);

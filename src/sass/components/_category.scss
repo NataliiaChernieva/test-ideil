@@ -5,7 +5,17 @@
   width: 159px;
   height: 24px;
   background-color: $white;
-  padding: 5px 10px;
-  background-color: #fff;
+  padding: 5px 8px;
+  @include font(700, 14px, 14px, center);
+}
+
+.category-in-list {
+  position: relative;
+  top: 30px;
+  left: 1px;
+  width: 159px;
+  height: 24px;
+  background-color: $white;
+  padding: 5px 8px;
   @include font(700, 14px, 14px, center);
 }

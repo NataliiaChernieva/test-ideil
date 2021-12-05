@@ -1,5 +1,4 @@
-import popularNowTemplate from '../tamplates/popular-now-tmp.hbs';
-import * as Api from '../js/api';
+import popularNowTemplate from '../tamplates/sec-tmp.hbs';
 
 const popularNow = document.querySelector('.popular-now-js')
 

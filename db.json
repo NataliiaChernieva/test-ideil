@@ -245,5 +245,52 @@
             "title": "Смерть марафонца. Можно ли было спасти Екатерину Катющеву",
             "date":"15:44"
         }
+    ],
+    "range":[
+        {
+        "id":"111",
+        "image":"../images/range1.png",
+        "image1": null,
+        "category": "Рейтинги",
+        "onehandred": "100",
+        "title": "Рейтинг 2019",
+        "secondTitle":"Самые влиятельные украинцы"
+        },
+        {
+        "id":"121",
+        "image": null,
+        "image1": "../images/range2.png",
+        "category": "Рейтинги",
+        "onehandred": null,
+        "title": "Бунт кнопок. 30 лучших работодателей Украины — рейтинг Фокуса",
+        "secondTitle": null
+        },
+         {
+        "id":"131",
+        "image":"../images/range3.png",
+         "image1": null,
+        "category": "Рейтинги",
+        "onehandred": "100",
+        "title": "Самые богатые люди Украины. Полный список",
+        "secondTitle": null
+        },
+        {
+        "id":"141",
+        "image": null,
+        "image1": "../images/range2.png",
+        "category": "Рейтинги",
+        "onehandred": null,
+        "title": "Бунт кнопок. 30 лучших работодателей Украины — рейтинг Фокуса",
+        "secondTitle": null
+        },
+         {
+        "id":"151",
+        "image":"../images/range1.png",
+        "image1": null,
+        "category": "Рейтинги",
+        "onehandred": "100",
+        "title": "Рейтинг 2019",
+        "secondTitle":"Самые влиятельные украинцы"
+        }
     ]
 }

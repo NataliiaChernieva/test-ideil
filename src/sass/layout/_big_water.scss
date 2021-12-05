@@ -15,7 +15,7 @@
 }
 
 .water-link {
-  color: $grey;
+  color: $white;
   @include font(500, 16px, 14px, left);
   text-transform: uppercase;
   padding-left: 17px;
@@ -23,12 +23,15 @@
 
 .all-material {
   width: 372px;
+  color: $white;
+  padding-right: 20px;
 }
 
 .all-material-item::before {
   content: '';
   width: 72px;
-  height: 1px;
+  height: 2px;
   background-color: $white;
   top: -5px;
+  color: $white;
 }

@@ -1,5 +1,4 @@
-import secondSectionTemplate from '../tamplates/sec2-tmp.hbs';
-import * as Api from '../js/api';
+import secondSectionTemplate from '../tamplates/sec-tmp.hbs';
 
 const secondContainer = document.querySelector('.second-container-js')
 

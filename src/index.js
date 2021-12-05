@@ -9,7 +9,8 @@ import './js/range';
 import './js/ukraine';
 import './js/popularNow';
 import './js/beauty-country';
-import './js/slide';
+// import './js/slide';
+// import './js/glideSlider';
 
 
 

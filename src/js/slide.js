@@ -24,12 +24,11 @@ $(function(){
     slidesToScroll: 1
   })
 
-  $('.range-slide').slick({
+  $('.range-slide-js').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
   
   });
-
 
   $('.popular-now').slick({
     slidesToShow: 4,

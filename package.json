@@ -29,6 +29,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.5.2",
     "axios": "^0.24.0",
     "bootstrap-icons": "^1.7.1",
     "caniuse-lite": "^1.0.30001283",

@@ -1,3 +1,22 @@
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.mini-slide {
+  width: 302px;
+  height: 60px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mini-slide-title {
+  @include font(700, 16px, 18px, center);
+  color: $white;
+  margin-top: 15px;
+}
+
 .first-container-item {
   width: 100%;
   height: 466px;

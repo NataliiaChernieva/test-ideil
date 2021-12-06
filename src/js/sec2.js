@@ -1,4 +1,4 @@
-import secondSectionTemplate from '../tamplates/sec-tmp.hbs';
+import secondSectionTemplate from '../tamplates/beauty-card.hbs';
 
 const secondContainer = document.querySelector('.second-container-js')
 

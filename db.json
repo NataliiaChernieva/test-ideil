@@ -52,7 +52,7 @@
         "id":"23",
         "image":"/images/sec2-3.png",
         "category": "Pейтинг",
-        "category-bg":"category-in-list",
+        "category-bg":"category",
         "title": "Из песни слов не выкинешь. Рейтинг Фокуса:самые успешные звезды шоу-бизнеса",
         "date":"15:44"
        },
@@ -68,7 +68,7 @@
         "id":"25",
         "image":"/images/sec2-5.png",
         "category": "Технологии и наука",
-        "category-bg":"category-in-list",
+        "category-bg":"category",
         "title": "Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье",
         "date":"15:44"
        },
@@ -92,7 +92,7 @@
         "id":"28",
         "image":"../images/sec2-8.png",
         "category": "Политика",
-        "category-bg":"category-in-list",
+        "category-bg":"category",
         "title": "Выход в люди. Как Шарий диктует информационную повестку дня в Украине",
         "date":"15:44"
        }
@@ -160,6 +160,7 @@
             "id":"81",
             "image":"https://dropmefiles.com.ua/ru/mhsyKHAYz",
             "category": "Украина",
+            "category-bg":"category-black",
             "title": "Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом",
             "date":"15:44"
         },
@@ -167,6 +168,7 @@
             "id":"82",
             "image":"../images/bc2.png",
             "category": "Украина",
+            "category-bg":"category-black",
             "title": "Небоскребы советских времен. Три маршрута к памятникам советского модернизма в Киеве",
             "date":"12 июня 2020 о 03:11"
         },
@@ -174,6 +176,7 @@
             "id":"83",
             "image":"../images/bc3.png",
             "category": "Рейтинг",
+            "category-bg":"category",
             "title": "Из песни слов не выкинешь. Рейтинг Фокуса:самые успешные звезды шоу-бизнеса",
             "date": null
         },
@@ -181,6 +184,7 @@
             "id":"84",
             "image":"../images/bc4.png",
             "category": "Украина",
+            "category-bg":"category-black",
             "title": "Как закалилась сталь. Музей Островского в Шепетовке — памятник архитектуры, а не идеологии",
             "date":"12 июня 2020 о 03:11"
         }

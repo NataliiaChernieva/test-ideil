@@ -1,8 +1,8 @@
 {{#each this}}
-<li class="section-item glide__slide"/p>
+<li class="popular-section glide__slide" style="background-image: url('{{image}}');">
     <p class="category-in-list">{{category}}</p>
-    <img id={{id}} class="section-image" src={{image}} alt="bc">
-    <h2 class="title">{{title}}</h2>
-    <p class="date">{{date}}</p>
+    {{!-- <img id={{id}} class="section-image" src={{image}} alt="bc"> --}}
+    <h2 class="title pop-title">{{title}}</h2>
+    <p class="date pop-date">{{date}}</p>
 </li>
 {{/each}}

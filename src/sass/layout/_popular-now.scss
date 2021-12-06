@@ -1,13 +1,32 @@
 .arrow--left {
-  height: 399px;
-  left: -4em;
+  height: 293px;
+  left: -5em;
   background-color: $white;
   color: $black;
+  width: 50px;
 }
 
 .arrow--right {
-  height: 399px;
-  right: -4em;
+  height: 293px;
+  right: -5em;
   background-color: $white;
   color: $black;
+  width: 50px;
+}
+
+.popular-section {
+  border: 1px solid blue;
+  height: 293px;
+  width: 300px;
+}
+
+.pop-title {
+  margin-top: 165px;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pop-date {
+  margin-left: 14px;
 }

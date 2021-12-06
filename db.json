@@ -34,7 +34,7 @@
     "sec2":[
        {
         "id":"21",
-        "image":"http://file.sampo.ru/z38tkk/",
+        "image":"src/images/sec2-1.png",
         "category": "Украина",
         "title": "Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом",
        "date":"15:44"
@@ -150,7 +150,7 @@
     "beauty-country":[
         {
             "id":"81",
-            "image":"../images/bc1.png",
+            "image":"",
             "category": "Украина",
             "title": "Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом",
             "date":"15:44"
@@ -249,7 +249,7 @@
     "range":[
         {
         "id":"111",
-        "image":"../images/range1.png",
+        "image":"",
         "image1": null,
         "category": "Рейтинги",
         "onehandred": "100",

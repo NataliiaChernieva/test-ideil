@@ -4,6 +4,7 @@ const slidesFirstContainer = document.querySelector('.first-container-js')
 const mainSlide = document.querySelector('.slider-for');
 
 const renderFirstSectionMarkup = data => {
+    mainSlide.insertAdjacentHTML('afterbegin', "")
     const markup = firstSectionTemplate(data);
     mainSlide.insertAdjacentHTML('afterbegin', markup)
 }

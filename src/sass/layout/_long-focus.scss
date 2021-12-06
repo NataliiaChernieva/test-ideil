@@ -18,3 +18,8 @@
   @include font(400, 16px, 18px, center);
   color: $white;
 }
+
+.glide__arrow {
+  border: none;
+  box-shadow: none;
+}

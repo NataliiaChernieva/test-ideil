@@ -19,3 +19,15 @@
   padding: 5px 8px;
   @include font(700, 14px, 14px, center);
 }
+
+.category-black {
+  position: relative;
+  top: 240px;
+  left: 16px;
+  width: 159px;
+  height: 24px;
+  background-color: $black;
+  color: $white;
+  padding: 5px 8px;
+  @include font(700, 14px, 14px, center);
+}

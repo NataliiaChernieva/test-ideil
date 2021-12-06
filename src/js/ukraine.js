@@ -1,4 +1,4 @@
-import ukraineTemplate from '../tamplates/sec-tmp.hbs';
+import ukraineTemplate from '../tamplates/ukraine.hbs';
 
 const ukraine = document.querySelector('.ukraine-js')
 

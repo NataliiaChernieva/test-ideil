@@ -2,7 +2,7 @@
     "sec1": [
     {
     "id":"1",
-    "image":"../images/sec1-1.png",
+    "image":"../images/sec1-1.jpg",
     "category": "Политика",
     "title": "Леди в законе. Зачем Зеленскому понадобился особый статус для жены президента",
     "text": "Владимир Зеленский загорелся идеей разработки закона о первой леди. Для чего ему это понадобилось, и какие права и обязанности возлагаются на супругу главы государства в Украине"
@@ -10,7 +10,7 @@
    },
    {
     "id":"2",
-    "image":"../images/sec1-2.png",
+    "image":"../images/sec1-2.jpg",
     "category": "Длинный фокус",
     "title": "Ни тоски, ни жалости",
     "text": "Почему украинки участвуют в боях без правил"
@@ -18,7 +18,7 @@
    },
    {
     "id":"3",
-    "image":"../images/sec1-3.png",
+    "image":"../images/sec1-3.jpg",
     "category": "Украина",
     "title": "Потоп на Западной Украине",
     "text": "Появилось видео затопленного Галича с воздуха"
@@ -34,7 +34,7 @@
     "sec2":[
        {
         "id":"21",
-        "image":"src/images/sec2-1.png",
+        "image":"src/images/sec2-1.jpg",
         "category": "Украина",
         "category-bg":"category-black",
         "title": "Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом",
@@ -42,7 +42,7 @@
        },
        {
         "id":"22",
-        "image":"/images/sec2-2.png",
+        "image":"/images/sec2-2.jpg",
         "category": "Технологии и наука",
         "category-bg":"category-black",
         "title": "Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье",
@@ -50,7 +50,7 @@
        },
        {
         "id":"23",
-        "image":"/images/sec2-3.png",
+        "image":"/images/sec2-3.jpg",
         "category": "Pейтинг",
         "category-bg":"category",
         "title": "Из песни слов не выкинешь. Рейтинг Фокуса:самые успешные звезды шоу-бизнеса",
@@ -58,7 +58,7 @@
        },
        {
         "id":"24",
-        "image":"/images/sec2-4.png",
+        "image":"/images/sec2-4.jpg",
         "category": "Политика",
         "category-bg":"category-black",
         "title": "Дубы и сосны. В соцсетях обсуждают сексистский скандал в 'Слуге народа'",
@@ -66,7 +66,7 @@
        },
        {
         "id":"25",
-        "image":"/images/sec2-5.png",
+        "image":"/images/sec2-5.jpg",
         "category": "Технологии и наука",
         "category-bg":"category",
         "title": "Заговоренная связь. Все, что известно о 5G и его влиянии на здоровье",
@@ -74,7 +74,7 @@
        },
         {
         "id":"26",
-        "image":"/images/sec2-6.png",
+        "image":"/images/sec2-6.jpg",
         "category": "Политика",
         "category-bg":"category-black",
         "title": "Кабмин назначил главой МОН Сергея Шкарлета в обход Рады",
@@ -82,7 +82,7 @@
        },
        {
         "id":"27",
-        "image":"../images/sec2-7.png",
+        "image":"../images/sec2-7.jpg",
         "category": "Технологии и наука",
         "category-bg":"category-black",
         "title": "Агент изменений. Денис Малюська — о частных СИЗО, продаже тюрем и будущем люстрации",
@@ -90,7 +90,7 @@
        },
        {
         "id":"28",
-        "image":"../images/sec2-8.png",
+        "image":"../images/sec2-8.jpg",
         "category": "Политика",
         "category-bg":"category",
         "title": "Выход в люди. Как Шарий диктует информационную повестку дня в Украине",
@@ -100,56 +100,64 @@
     "popular-now": [
     {
     "id":"71",
-    "image":"../images/popul1.png",
+    "image":"../images/popul1.jpg",
+    "background-color": null,
     "category": "Протесты в США",
     "title": "Жертвы собственной пропаганды. Как либеральные могут проиграть холодную войну",
     "date":"15:44"
     },
     {
     "id":"72",
-    "image":"../images/popul2.png",
+    "image":"null",
+    "background-color": "#000000",
     "category": "Мир",
     "title": "Австралиец выловил рекордного красного императора и решил передать его ученым",
     "date":"15:44"
     },
     {
     "id":"73",
-    "image":"../images/popul3.png",
+    "image":"null",
+    "background-color": "#ffffff",
     "category": "Мир",
     "title": "Жизнь за 80. 5 самых пожилых рекорсменов из Книги рекордов Гиннеса",
     "date":"15:44"
     },
     {
     "id":"74",
-    "image":"../images/popul4.png",
+    "image":"../images/popul4.jpg",
+    "background-color": null,
     "category": "Украина",
     "title": "Дресс-код постапокалипсиса. Как коронавирус и карантин навсегда изменили стиль",
     "date":"15:44"
     },
     {
     "id":"75",
-    "image":"../images/popul2.png",
+    "image":"null",
+    "background-color": "#000000",
     "category": "Политика",
     "title": "Австралиец выловил рекордного красного императора и решил передать его ученым",
     "date":"15:44"
     },
     {
     "id":"76",
-    "image":"../images/popul4.png",
+    "image":"../images/popul4.jpg",
+    "background-color": null,
     "category": "Красота",
     "title": "Жизнь за 80. 5 самых пожилых рекорсменов из Книги рекордов Гиннеса",
     "date":"15:44"
     },
     {
     "id":"77",
-    "image":"../images/range3.png",
+    "image":"null",
+    "background-color": "#ffffff",
     "category": "Длинный фокус",
     "title": "Почему украинки участвуют в боях без правил",
     "date":"15:44"
     },
     {
     "id":"78",
-    "image":"../images/popul1.png",
+    "image":"../images/popul1.jpg",
+    "background-color": null,
     "category": "Красота",
     "title": "Жизнь за 80. 5 самых пожилых рекорсменов из Книги рекордов Гиннеса",
     "date":"15:44"
@@ -166,7 +174,7 @@
         },
         {
             "id":"82",
-            "image":"../images/bc2.png",
+            "image":"../images/bc2.jpg",
             "category": "Украина",
             "category-bg":"category-black",
             "title": "Небоскребы советских времен. Три маршрута к памятникам советского модернизма в Киеве",
@@ -174,7 +182,7 @@
         },
         {
             "id":"83",
-            "image":"../images/bc3.png",
+            "image":"../images/bc3.jpg",
             "category": "Рейтинг",
             "category-bg":"category",
             "title": "Из песни слов не выкинешь. Рейтинг Фокуса:самые успешные звезды шоу-бизнеса",
@@ -182,7 +190,7 @@
         },
         {
             "id":"84",
-            "image":"../images/bc4.png",
+            "image":"../images/bc4.jpg",
             "category": "Украина",
             "category-bg":"category-black",
             "title": "Как закалилась сталь. Музей Островского в Шепетовке — памятник архитектуры, а не идеологии",
@@ -263,6 +271,7 @@
         "id":"111",
         "image":"https://drive.google.com/file/d/10amGZF0H9wwYh_7rBGe4WWk0xBX4HzII/view?usp=sharing",
         "image1": null,
+        "background-color": null,
         "category": "Рейтинги",
         "onehandred": "100",
         "title": "Рейтинг 2019",
@@ -271,7 +280,8 @@
         {
         "id":"121",
         "image": null,
-        "image1": "../images/range2.png",
+        "image1": "../images/range2.jpg",
+        "background-color": "#ffffff",
         "category": "Рейтинги",
         "onehandred": null,
         "title": "Бунт кнопок. 30 лучших работодателей Украины — рейтинг Фокуса",
@@ -281,6 +291,7 @@
         "id":"131",
         "image":"../images/range3.png",
          "image1": null,
+         "background-color": null,
         "category": "Рейтинги",
         "onehandred": "100",
         "title": "Самые богатые люди Украины. Полный список",
@@ -289,7 +300,8 @@
         {
         "id":"141",
         "image": null,
-        "image1": "../images/range2.png",
+         "image1": "../images/range2.jpg",
+        "background-color": "#ffffff",
         "category": "Рейтинги",
         "onehandred": null,
         "title": "Бунт кнопок. 30 лучших работодателей Украины — рейтинг Фокуса",
@@ -297,12 +309,78 @@
         },
          {
         "id":"151",
-        "image":"../images/range1.png",
+        "image":"../images/range1.jpg",
         "image1": null,
+        "background-color": null,
         "category": "Рейтинги",
         "onehandred": "100",
         "title": "Рейтинг 2019",
         "secondTitle":"Самые влиятельные украинцы"
         }
+    ],
+    "sec4":[
+        {
+            "id":"162",
+            "image": null,
+            "image1": "../images/sec4-2.jpg",
+            "background-color": null,
+            "category": "Технологии и наука",
+            "title": "Счастье за 16 секунд. В чем секрет популярности TikTok и как соцсеть влияет на психику подростков",
+            "secondTitle":null,
+            "date": "15:44"
+        },
+        {
+            "id":"163",
+            "image": "../images/sec4-3.jpg",
+            "image1": null,
+            "background-color": null,
+            "category": null,
+            "title": null,
+            "secondTitle":null,
+            "date": null
+        }
+    ],
+    "sec42":[
+        {
+            "id":"164",
+            "image": null,
+            "image1": "../images/sec4-4.jpg",
+            "background-color": null,
+            "category": "Технологии и наука",
+            "title": "Новая нефть. Как ученые ищут редкие элементы на дне океана, в космосе и мусоре",
+            "secondTitle":null,
+            "date": "15:44"
+        },
+        {
+            "id":"165",
+            "image": null,
+            "image1": null,
+            "background-color": "#ffffff",
+            "category": "Технологии и наука",
+            "title": "Все в масках и проверка температуры: в Украине стартовала основная сессия ВНО-2020",
+            "secondTitle":"Первый тест – по математике. Для его прохождения зарегистрировались 186 072 человека. ",
+            "date": "15:44"
+        },
+        {
+            "id":"166",
+            "image": "../images/sec4-6.jpg",
+            "image1": null,
+            "background-color": null,
+            "category": null,
+            "title": null,
+            "secondTitle":null,
+            "date": null
+        },
+        {
+            "id":"167",
+            "image": null,
+            "image1": "../images/sec4-7.jpg",
+            "background-color": null,
+            "category": "Технологии и наука",
+            "title": "Обзор Юрия Володарского: 5 книг для тех, кто предпочитает 'короткий метр' в литературе",
+            "secondTitle":null,
+            "date": "15:44"
+        }
     ]
 }
+

@@ -2,22 +2,43 @@
   position: relative;
   top: 30px;
   left: 60px;
-  width: 159px;
-  height: 24px;
   background-color: $white;
-  padding: 5px 8px;
-  @include font(700, 14px, 14px, center);
+  padding: 4px 6px;
+  width: 130px;
+  height: 20px;
+  @include font(700, 12px, 12px, center);
+  @media screen and (min-width: 1440px) {
+    width: 159px;
+    height: 24px;
+    @include font(700, 14px, 14px, center);
+  }
 }
 
 .category-in-list {
   position: relative;
-  top: 18px;
-  left: 16px;
-  width: 159px;
-  height: 24px;
+  top: 10px;
+  left: 10px;
   background-color: $white;
-  padding: 5px 8px;
-  @include font(700, 14px, 14px, center);
+  width: 70px;
+  height: 14px;
+  padding: 3px 6px;
+  @include font(700, 8px, 9px, center);
+  @media screen and (min-width: 768px) {
+    top: 16px;
+    left: 16px;
+    width: 130px;
+    height: 20px;
+    padding: 4px 6px;
+    @include font(700, 12px, 12px, center);
+  }
+
+  @media screen and (min-width: 1440px) {
+    top: 20px;
+    width: 159px;
+    height: 24px;
+    padding: 5px 8px;
+    @include font(700, 14px, 14px, center);
+  }
 }
 
 .category-black {

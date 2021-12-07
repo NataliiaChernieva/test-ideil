@@ -170,12 +170,12 @@
   margin-left: -300px;
   background-color: $white;
   position: fixed;
-  top: 40px;
+  top: 60px;
   left: 0;
   bottom: 0;
   transition: all ease 1s;
   padding: 31px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1440px) {
     top: 78px;
   }
 }

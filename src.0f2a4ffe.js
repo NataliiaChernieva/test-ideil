@@ -46,4 +46,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"../tamplates/sec-tmp.hbs":"SRc3"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/burger"),require("./js/search"),require("./js/sec1"),require("./js/sec2"),require("./js/big-water"),require("./js/sec4"),require("./js/range"),require("./js/ukraine"),require("./js/popularNow"),require("./js/beauty-country");
 },{"./sass/main.scss":"clu1","./js/burger":"toNQ","./js/search":"HU2o","./js/sec1":"UpPB","./js/sec2":"Syb1","./js/big-water":"ySAL","./js/sec4":"vIuf","./js/range":"A8Cw","./js/ukraine":"cFOG","./js/popularNow":"BaIA","./js/beauty-country":"GMcQ"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.687037e0.js.map
+//# sourceMappingURL=/src.0f2a4ffe.js.map

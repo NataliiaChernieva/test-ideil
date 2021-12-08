@@ -64,10 +64,7 @@
   color: $white;
   @include font(700, 13px, 15px, left);
   width: 180px;
-  margin-bottom: 10px;
-  margin-top: 18px;
-  margin-left: 20px;
-
+  margin: 17px 17px 12px;
   @media screen and (min-width: 768px) {
     @include font(700, 24px, 26px, left);
     width: 400px;

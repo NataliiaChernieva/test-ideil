@@ -1,13 +1,22 @@
 .category {
   position: relative;
-  top: 30px;
-  left: 60px;
   background-color: $white;
-  padding: 4px 6px;
-  width: 130px;
-  height: 20px;
-  @include font(700, 12px, 12px, center);
+  padding: 2px 5px;
+  top: 10px;
+  left: 10px;
+  width: 90px;
+  height: 14px;
+  @include font(700, 10px, 10px, center);
+  @media screen and (min-width: 768px) {
+    top: 20px;
+    left: 20px;
+    width: 130px;
+    height: 20px;
+    @include font(700, 12px, 12px, center);
+  }
   @media screen and (min-width: 1440px) {
+    top: 30px;
+    left: 60px;
     width: 159px;
     height: 24px;
     @include font(700, 14px, 14px, center);

@@ -68,12 +68,13 @@
 }
 
 .all-material-item::before {
+  position: relative;
+  top: -5px;
   content: '';
   width: 72px;
   height: 2px;
   background-color: $white;
-  top: -5px;
-  color: $white;
+  // color: $white;
 }
 
 .scrollbar {

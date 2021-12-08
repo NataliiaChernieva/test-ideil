@@ -1,25 +1,72 @@
 .slide-image {
-  width: 1272px;
-  height: 399px;
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 260px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1272px;
+    height: 399px;
+  }
 }
 
 .focus-title {
-  @include font(700, 22px, 24px, center);
   color: $white;
-  padding-top: 174px;
-  padding-bottom: 20px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  @include font(700, 14px, 16px, center);
+  @media screen and (min-width: 768px) {
+    padding-top: 74px;
+    padding-bottom: 20px;
+    @include font(700, 20px, 22px, center);
+  }
+  @media screen and (min-width: 1440px) {
+    @include font(700, 22px, 24px, center);
+    padding-top: 174px;
+    padding-bottom: 20px;
+  }
 }
 
 .focus-text {
-  @include font(400, 16px, 18px, center);
-  color: $white;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    color: $white;
+    margin-bottom: 17px;
+    @include font(400, 14px, 16px, center);
+  }
+  @media screen and (min-width: 1440px) {
+    @include font(400, 16px, 18px, center);
+  }
 }
 
 .glide__arrow {
   border: none;
   box-shadow: none;
+}
+
+.bi-chevron-right,
+.bi-chevron-left {
+  width: 20px;
+  height: 20px;
+  @media screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.glide__arrow--right {
+  @media screen and (max-width: 1439px) {
+    right: 0em;
+  }
+}
+
+.glide__arrow--left {
+  @media screen and (max-width: 1439px) {
+    left: 0em;
+  }
 }

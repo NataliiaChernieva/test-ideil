@@ -127,6 +127,11 @@
   }
 }
 
+.header-navigation li:hover,
+.header-navigation li:focus {
+  color: $red;
+}
+
 .header-right {
   display: flex;
   justify-content: space-between;

@@ -38,6 +38,12 @@
   width: 180px;
   height: 40px;
   padding: 6px 16px;
+
+  &:focus,
+  &:hover {
+    color: $red;
+  }
+
   @media screen and (max-width: 767px) {
     margin-left: 16px;
   }

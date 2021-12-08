@@ -166,7 +166,7 @@
     "beauty-country":[
         {
             "id":"81",
-            "image":"https://dropmefiles.com.ua/ru/mhsyKHAYz",
+            "image":"../images/bc1.jpg",
             "category": "Украина",
             "category-bg":"category-black",
             "title": "Наказание карантином. Чем грозит Украине вторая волна борьбы с коронавирусом",
@@ -174,7 +174,7 @@
         },
         {
             "id":"82",
-            "image":"../images/bc2.jpg",
+            "image":"file:///C:/Users/Natali/Documents/GitHub/test/test-ideil/src/images/bc2.jpg",
             "category": "Украина",
             "category-bg":"category-black",
             "title": "Небоскребы советских времен. Три маршрута к памятникам советского модернизма в Киеве",
@@ -236,7 +236,9 @@
             "category": "Украина",
             "title": "Выход из карантина: Кабмин разрешил открыть кинотеатры со 2 июля",
             "date":"15:44"
-        },
+        }
+    ],
+    "ukraine-two":[
         {
             "id":"103",
             "image":"../images/uk3.png",
@@ -289,9 +291,9 @@
         },
          {
         "id":"131",
-        "image":"../images/range3.png",
+        "image":null,
          "image1": null,
-         "background-color": null,
+         "background-color": "#000000",
         "category": "Рейтинги",
         "onehandred": "100",
         "title": "Самые богатые люди Украины. Полный список",

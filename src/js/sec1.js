@@ -17,5 +17,3 @@
 //     const id = e.target.id;
 //     fetch(`http://localhost:3000/sec1/${id}`).then(res => res.json()).then(renderFirstSectionMarkup);
 // })
-
-

@@ -8,10 +8,12 @@ const renderPopularNowMarkup = data => {
     popularNow.insertAdjacentHTML('afterbegin', markup)
 }
 
-fetch('http://localhost:3000/popular-now').then(res => res.json()).then(renderPopularNowMarkup);
-
-// new Glide('.popular-now', {
-//   type: 'carousel',
-//   perView: 4,
-//   gap: 30,
-// }).mount();
+fetch('http://localhost:3000/popular-now')
+    .then(res => res.json())
+    .then(renderPopularNowMarkup)
+    // .then(
+    //     new Glide('#g3', {
+    //      type: 'carousel',
+    //      perView: 4,
+    //     }).mount()
+    // )

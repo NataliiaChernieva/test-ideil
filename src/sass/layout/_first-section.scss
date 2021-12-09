@@ -43,8 +43,8 @@
   margin-top: 6px;
   @include font(700, 10px, 10px, center);
   @media screen and (min-width: 768px) {
-    @include font(700, 12px, 12px, center);
-    margin-top: 8px;
+    @include font(500, 14px, 14px, center);
+    margin-top: 6px;
   }
   @media screen and (min-width: 1440px) {
     @include font(700, 16px, 18px, center);
@@ -102,14 +102,10 @@
   }
 }
 
-.first-container-mini-item {
-  width: 302px;
-  height: 60px;
-}
-
-.mini-slide-title {
-  @include font(700, 14px, 16px, center);
-}
+// .first-container-mini-item {
+//   width: 302px;
+//   height: 60px;
+// }
 
 .mini-slide.glide__slide--active {
   border-bottom: 2px solid $red;

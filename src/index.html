@@ -32,19 +32,30 @@
     <include src="./partials/advertising.html"></include>
     <include src="./partials/footer.html"></include>
 
-     
+    
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+      const glide1= new Glide('#g1', { type: 'carousel',
+          autoplay: 3000,
+          perView: 4});
+      const glide2 = new Glide('#g2');
+      glide1.mount();
+      glide2.mount();  
+        glide1.on('run', (e)=>{
+          glide2.go(e.direction);
+        })
+    </script>
     <!-- <script>
       new Glide('.range-slider', {
         type: 'carousel',
         perView: 3,
       }).mount()</script> -->
-    <!-- <script>
-      new Glide('.popular-now', {
+    <script>
+      new Glide('#g3', {
         type: 'carousel',
         perView: 4,
         gap: 30,
-      }).mount()</script>  -->
+      }).mount()</script> 
     <script>
       new Glide('.long-focus', {
           type: 'carousel',
@@ -53,7 +64,8 @@
         }).mount()</script>
     
     </script>
-        <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+        
 
   </body>
 </html>

@@ -174,7 +174,7 @@
         },
         {
             "id":"82",
-            "image":"file:///C:/Users/Natali/Documents/GitHub/test/test-ideil/src/images/bc2.jpg",
+            "image":"../images/bc2.jpg",
             "category": "Украина",
             "category-bg":"category-black",
             "title": "Небоскребы советских времен. Три маршрута к памятникам советского модернизма в Киеве",
@@ -271,7 +271,7 @@
     "range":[
         {
         "id":"111",
-        "image":"https://drive.google.com/file/d/10amGZF0H9wwYh_7rBGe4WWk0xBX4HzII/view?usp=sharing",
+        "image":"../images/range1.jpg",
         "image1": null,
         "background-color": null,
         "category": "Рейтинги",

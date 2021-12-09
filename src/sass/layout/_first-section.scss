@@ -1,22 +1,26 @@
-.first-container {
-  display: grid;
-  justify-content: space-between;
-  margin-bottom: 20px;
+// .first-container {
+//   display: grid;
+//   justify-content: space-between;
+//   margin-bottom: 20px;
 
-  @media screen and (max-width: 767px) {
-    grid-template-columns: 136px 136px;
-    grid-gap: 8px;
-    width: 280px;
-  }
-  @media screen and (min-width: 768px) {
-    grid-template-columns: 160px 160px 160px 160px;
-    height: 50px;
-  }
-  @media screen and (min-width: 1440px) {
-    grid-template-columns: 302px 302px 302px 302px;
-    height: 60px;
-    margin-bottom: 30px;
-  }
+//   @media screen and (max-width: 767px) {
+//     grid-template-columns: 136px 136px;
+//     grid-gap: 8px;
+//     width: 280px;
+//   }
+//   @media screen and (min-width: 768px) {
+//     grid-template-columns: 160px 160px 160px 160px;
+//     height: 50px;
+//   }
+//   @media screen and (min-width: 1440px) {
+//     grid-template-columns: 302px 302px 302px 302px;
+//     height: 60px;
+//     margin-bottom: 30px;
+//   }
+// }
+
+.first-container {
+  margin-bottom: 20px;
 }
 
 .mini-slide {
@@ -24,6 +28,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 40px;
+  padding-bottom: 5px;
   @media screen and (min-width: 768px) {
     height: 50px;
   }
@@ -48,11 +53,12 @@
 }
 
 .first-container-item {
-  width: 100%;
+  width: 1272px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 120px;
   @media screen and (min-width: 768px) {
+    width: 688px;
     height: 260px;
   }
   @media screen and (min-width: 1440px) {
@@ -101,6 +107,10 @@
   height: 60px;
 }
 
-.smini-slide-title {
+.mini-slide-title {
   @include font(700, 14px, 16px, center);
+}
+
+.mini-slide.glide__slide--active {
+  border-bottom: 2px solid $red;
 }

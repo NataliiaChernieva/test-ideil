@@ -271,7 +271,7 @@
     "range":[
         {
         "id":"111",
-        "image":"../images/range1.jpg",
+        "image":"file:///C:/Users/Natali/Documents/GitHub/test/test-ideil/src/images/range1.jpg",
         "image1": null,
         "background-color": null,
         "category": "Рейтинги",

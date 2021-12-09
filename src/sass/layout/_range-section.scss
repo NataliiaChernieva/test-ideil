@@ -1,7 +1,7 @@
 .range-card {
   width: 408px;
   height: 515px;
-  border: 1px solid blue;
+  // border: 1px solid blue;
   color: $white;
   margin-right: 22px;
 }
@@ -23,7 +23,7 @@
 
 .range-title {
   @include font(700, 24px, 28px, center);
-  width: 266px;
+  width: 341px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -31,9 +31,15 @@
 .range-img {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 46px;
+  margin-bottom: 58px;
 }
 
 .range-card:nth-child(2),
 .range-card:nth-child(4) {
+  color: $black;
+}
+
+.black-color {
   color: $black;
 }

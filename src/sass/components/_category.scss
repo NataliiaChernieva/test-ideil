@@ -27,8 +27,9 @@
   position: relative;
   top: 10px;
   left: 10px;
+  z-index: 100;
   background-color: $white;
-  width: 70px;
+  // width: 70px;
   height: 14px;
   padding: 3px 6px;
   @include font(700, 8px, 9px, center);
@@ -49,6 +50,9 @@
     @include font(700, 14px, 14px, center);
   }
 }
+.category-in-pop-list {
+  top: -273px;
+}
 
 .category-black {
   position: relative;
@@ -60,4 +64,9 @@
   color: $white;
   padding: 5px 8px;
   @include font(700, 14px, 14px, center);
+}
+
+.black-bg {
+  background-color: $black;
+  color: $white;
 }

@@ -15,7 +15,6 @@
 }
 
 .popular-section {
-  border: 1px solid blue;
   height: 293px;
   width: 300px;
   margin-right: 22px;
@@ -23,18 +22,20 @@
 
 .pop-title {
   position: relative;
-  // top: 139px;
-  margin-top: 139px;
+  top: 139px;
+  // color: $white;
   width: 270px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.popular-section:nth-child(2) .pop-title,
-.popular-section:nth-child(5) .pop-title {
-  color: $white;
+.pop-title-two {
+  top: -150px;
 }
 
-.pop-date {
-  margin-left: 14px;
+// .popular-section.pop-title:nth-child(3) {
+//   color: $black;
+// }
+.white-color {
+  color: $white;
 }

@@ -14,3 +14,20 @@
     @include font(500, 14px, 14px, left);
   }
 }
+
+.pop-date {
+  position: relative;
+  margin-left: 14px;
+  left: 0px;
+  @include font(500, 10px, 12px, left);
+  color: $dark-grey;
+  @media screen and (min-width: 768px) {
+    top: 146px;
+    @include font(500, 12px, 12px, left);
+  }
+  @media screen and (min-width: 1440px) {
+    // bottom: -18px;
+    top: 150px;
+    @include font(500, 14px, 14px, left);
+  }
+}
